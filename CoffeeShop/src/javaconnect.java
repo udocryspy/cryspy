@@ -12,7 +12,7 @@ public class javaconnect {
 		try {
 			Class.forName("org.sqlite.JDBC");
 			//Connection conn=DriverManager.getConnection("jdbc:sqlite:C:\\Program Files\\workspace\\database\\CoffeeShop.sqlite");
-			Connection conn=DriverManager.getConnection("jdbc:sqlite:C:\\Users\\user\\workspace\\CoffeeShop\\CoffeeKiosk.sqlite");
+			Connection conn=DriverManager.getConnection("jdbc:sqlite:‪C:\\Users\\user\\workspace\\CoffeeShop.sqlite");
 			//Connection conn=DriverManager.getConnection("jdbc:sqlite:C:/Program Files/workspace/database/CoffeeShop.sqlite");
 			JOptionPane.showMessageDialog(null, "Connection Established");
 			return conn;
